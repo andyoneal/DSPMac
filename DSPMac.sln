@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSPMac_patcher", "DSPMac_patcher\DSPMac_patcher.csproj", "{570CA0E4-5D87-432F-A952-F66FB3A9904A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{570CA0E4-5D87-432F-A952-F66FB3A9904A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{570CA0E4-5D87-432F-A952-F66FB3A9904A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{570CA0E4-5D87-432F-A952-F66FB3A9904A}.Debug|x64.ActiveCfg = Debug|x64
+		{570CA0E4-5D87-432F-A952-F66FB3A9904A}.Debug|x64.Build.0 = Debug|x64
+		{570CA0E4-5D87-432F-A952-F66FB3A9904A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{570CA0E4-5D87-432F-A952-F66FB3A9904A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{570CA0E4-5D87-432F-A952-F66FB3A9904A}.Release|x64.ActiveCfg = Release|x64
+		{570CA0E4-5D87-432F-A952-F66FB3A9904A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67A42F6A-7C8C-453B-B713-437BE7CA83BF}
+	EndGlobalSection
+EndGlobal
