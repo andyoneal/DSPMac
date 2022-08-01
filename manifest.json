@@ -1,0 +1,9 @@
+{
+	"name": "DSP Mac",
+	"version_number": "1.0.0",
+	"website_url": "https://github.com/andyoneal/DSPMac",
+	"description": "Make DSP work better when run on macOS",
+	"dependencies": [
+		"xiaoye97-BepInEx-5.4.17"
+	]
+}
