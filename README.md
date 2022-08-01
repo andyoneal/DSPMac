@@ -7,7 +7,7 @@ Mod for Dyson Sphere Program for better compatibility with macOS
 DSP runs very well in [Crossover Mac](https://www.codeweavers.com/crossover#mac) 21.0+ with the notable exception of the player mech not being visible. This is a result of Unity using geometry shaders for gpu skinning on this model, and Crossover/MoltenVK does not yet support geometry shaders. Luckily, gpu skinning is a toggle in PlayerSettings. This mod simply turns gpu skinning off.
 
 ## Tips
-- Getting BepInEx to run within Crossover/Wine requires you to do a couple configuration steps. Follow (this guide)[https://docs.bepinex.dev/articles/advanced/proton_wine.html] to make sure it's actually loaded when DSP launches.
+- Getting BepInEx to run within Crossover/Wine requires you to do a couple configuration steps. Follow [this guide](https://docs.bepinex.dev/articles/advanced/proton_wine.html) to make sure it's actually loaded when DSP launches.
 
 ## Thanks
 This mod borrows heavily from [Faeryn's OutwardVisibleInBackground](https://github.com/Faeryn/OutwardVisibleInBackground) mod.
