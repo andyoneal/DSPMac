@@ -6,9 +6,6 @@ Mod for Dyson Sphere Program for better compatibility with macOS
 ## Why?
 DSP runs very well in [Crossover Mac](https://www.codeweavers.com/crossover#mac) 21.0+ with the notable exception of the player mecha not being visible. This is a result of Unity using geometry shaders and stream-output (aka transform feedback) for gpu skinning on this model, but Crossover/MoltenVK does not yet support geometry shaders, which is because Apple's Metal does not support them, which is because [they were a bad idea that won't die](https://www.jlekstrand.net/jason/blog/2018/10/transform-feedback-is-terrible-so-why/). Luckily, gpu skinning is a toggle in PlayerSettings. This mod simply turns gpu skinning off.
 
-## Tips
-You should turn on DXVK and Performance Enhanced Graphics (CSMT) for your wine bottle. These are toggles in Crossover. Without DXVK, you will have a lot more graphics issues than just the invisible mecha.
-
 ## Installation
 ### Required Step (Crossover/Wine only)
 Wine/Crossover will prevent BepInEx (mod loader) from running correctly, regardless of the method you use to install this. To fix this, we need to add an override for winhttp.dll.
@@ -28,6 +25,10 @@ This mod is on [Thunderstore](https://dsp.thunderstore.io/package/Andy/DSP_Mac/)
 7. Download the latest DSPMod from [Releases](https://github.com/andyoneal/DSPMac/releases).
 8. Extract the zip into the patchers folder. You should now see AssetTools.NET.dll and DSPMac_patcher.dll in the directory.
 9. Run Dyson Sphere Program again and the player mecha should now be visible.
+
+## Tips
+- You should turn on DXVK and Performance Enhanced Graphics (CSMT) for your wine bottle. These are toggles in Crossover. Without DXVK, you will have a lot more graphics issues than just the invisible mecha.
+- After testing with a new game and a very late game save on an M1 Max, setting the Logical Frame Thread Count (in Gameplay settings) to 6 (default is 10) gave me the best performance. I'm guessing an M1 Pro would also run best with 6, and an M1 would run best with 4.
 
 ## Thanks
 This mod borrows heavily from [Faeryn's OutwardVisibleInBackground](https://github.com/Faeryn/OutwardVisibleInBackground) mod.
