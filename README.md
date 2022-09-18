@@ -13,7 +13,7 @@ Wine/Crossover will prevent BepInEx (mod loader) from running correctly, regardl
 - If you are running with Crossover, select the bottle where DSP is installed, open the Wine Configuration control panel, and on the Libraries tab, add a new override for ```winhttp```. You can see a screenshot of this on step 2 of the Wine-only guide above.
 
 ### Easy Way
-This mod is on [Thunderstore](https://dsp.thunderstore.io/package/Andy/DSP_Mac/), so the easiest way is probably using their mod manager or another like r2modman. You will still need to do the required step above.
+This mod is on [Thunderstore](https://dsp.thunderstore.io/package/Andy/DSP_Mac/), so the ~~easiest way is probably using their mod manager or another like r2modman.~~ Apparently r2modman does not work in Wine/Crossover, so there is no easy way. You will still need to do the required step above.
 
 ### Manual Install
 1. Open the directory for Dyson Sphere Program within the bottle. On macOS with Crossover, this buried deep in something like ```~/Library/Application Support/CrossOver/Bottles/BOTTLENAME/drive_c/Program Files (x86)/Steam/steamapps/common/Dyson Sphere Program/```
